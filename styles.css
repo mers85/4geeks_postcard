@@ -1,0 +1,118 @@
+.card {
+    height: 500px;
+    width: 680px;
+    background-color: white;
+    padding: 3px;
+}
+
+.card-head {
+    width: 670px;
+    height: 100px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.card-body {
+    width: 670px;
+    height: 290px;
+    margin: 0px;
+    padding: 3px;
+}
+
+.card-footer {
+    height: 80px;
+    width: 670px;
+    margin: 3px;
+    padding: 3px;
+    border: 5px;
+    position: relative;
+}
+
+.card-footer a {
+    text-align: center;
+}
+
+.card-form {
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    padding: 3px;
+    float: right;
+}
+
+.card-text {
+    font-size: 25px;
+    height: 210px;
+    width: 340px;
+    padding: 6px;
+    float: left;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.title {
+    font-size: 25px;
+    height: 95px;
+    padding: 5px;
+    width: 260px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 32px;
+}
+
+a.button {
+    text-decoration: none;
+    background-color: #b3b3b3;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -55px;
+    
+}
+
+a:hover {
+    background-color: #8d8d8d;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+
+}
+
+p {
+    font-size: 23px;
+    color: black;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    line-height: 30px;
+
+}
